@@ -75,6 +75,12 @@ function draw() {
     );
   }
 
+  if (lives == 1) {
+    textSize(28);
+    fill(60);
+    text("Hurry! You have only one live.", 500, 60);
+  }
+
   // if (bg.x < width / 2 - 80) {
   //   bg.x = width / 2 + 90;
   // }
